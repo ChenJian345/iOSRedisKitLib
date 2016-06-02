@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D9556F61C16D55A00628D97 /* async.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D9556E71C16D55A00628D97 /* async.c */; };
+		4D9556F71C16D55A00628D97 /* dict.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D9556E91C16D55A00628D97 /* dict.c */; };
+		4D9556F81C16D55A00628D97 /* hiredis.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D9556EC1C16D55A00628D97 /* hiredis.c */; };
+		4D9556F91C16D55A00628D97 /* net.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D9556EF1C16D55A00628D97 /* net.c */; };
+		4D9556FA1C16D55A00628D97 /* read.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D9556F11C16D55A00628D97 /* read.c */; };
+		4D9556FB1C16D55A00628D97 /* sds.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D9556F31C16D55A00628D97 /* sds.c */; };
+		4D9556FF1C16D56E00628D97 /* CocoaRedis.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9556FD1C16D56E00628D97 /* CocoaRedis.m */; };
+		4D9557021C16D5B900628D97 /* CocoaPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9557011C16D5B900628D97 /* CocoaPromise.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D9556D81C16D53500628D97 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4D9556DA1C16D53500628D97 /* libiOSRedisKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiOSRedisKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D9556E71C16D55A00628D97 /* async.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = async.c; sourceTree = "<group>"; };
+		4D9556E81C16D55A00628D97 /* async.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = async.h; sourceTree = "<group>"; };
+		4D9556E91C16D55A00628D97 /* dict.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dict.c; sourceTree = "<group>"; };
+		4D9556EA1C16D55A00628D97 /* dict.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dict.h; sourceTree = "<group>"; };
+		4D9556EB1C16D55A00628D97 /* fmacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmacros.h; sourceTree = "<group>"; };
+		4D9556EC1C16D55A00628D97 /* hiredis.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hiredis.c; sourceTree = "<group>"; };
+		4D9556ED1C16D55A00628D97 /* hiredis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hiredis.h; sourceTree = "<group>"; };
+		4D9556EE1C16D55A00628D97 /* macosx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = macosx.h; sourceTree = "<group>"; };
+		4D9556EF1C16D55A00628D97 /* net.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = net.c; sourceTree = "<group>"; };
+		4D9556F01C16D55A00628D97 /* net.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = net.h; sourceTree = "<group>"; };
+		4D9556F11C16D55A00628D97 /* read.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = read.c; sourceTree = "<group>"; };
+		4D9556F21C16D55A00628D97 /* read.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = read.h; sourceTree = "<group>"; };
+		4D9556F31C16D55A00628D97 /* sds.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sds.c; sourceTree = "<group>"; };
+		4D9556F41C16D55A00628D97 /* sds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sds.h; sourceTree = "<group>"; };
+		4D9556F51C16D55A00628D97 /* win32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = win32.h; sourceTree = "<group>"; };
+		4D9556FC1C16D56E00628D97 /* CocoaRedis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CocoaRedis.h; path = Hiredis/CocoaRedis.h; sourceTree = "<group>"; };
+		4D9556FD1C16D56E00628D97 /* CocoaRedis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CocoaRedis.m; path = Hiredis/CocoaRedis.m; sourceTree = "<group>"; };
+		4D9557001C16D5B900628D97 /* CocoaPromise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaPromise.h; sourceTree = "<group>"; };
+		4D9557011C16D5B900628D97 /* CocoaPromise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaPromise.m; sourceTree = "<group>"; };
+		4D95570A1C16DAC500628D97 /* RedisKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RedisKit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D9556D71C16D53500628D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D9556D11C16D53500628D97 = {
+			isa = PBXGroup;
+			children = (
+				4D9556DC1C16D53500628D97 /* iOSRedisKit */,
+				4D9556DB1C16D53500628D97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D9556DB1C16D53500628D97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D9556DA1C16D53500628D97 /* libiOSRedisKit.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D9556DC1C16D53500628D97 /* iOSRedisKit */ = {
+			isa = PBXGroup;
+			children = (
+				4D9556E61C16D55A00628D97 /* Hiredis */,
+				4D9557001C16D5B900628D97 /* CocoaPromise.h */,
+				4D9557011C16D5B900628D97 /* CocoaPromise.m */,
+				4D9556FC1C16D56E00628D97 /* CocoaRedis.h */,
+				4D9556FD1C16D56E00628D97 /* CocoaRedis.m */,
+				4D95570A1C16DAC500628D97 /* RedisKit.h */,
+			);
+			path = iOSRedisKit;
+			sourceTree = "<group>";
+		};
+		4D9556E61C16D55A00628D97 /* Hiredis */ = {
+			isa = PBXGroup;
+			children = (
+				4D9556E71C16D55A00628D97 /* async.c */,
+				4D9556E81C16D55A00628D97 /* async.h */,
+				4D9556E91C16D55A00628D97 /* dict.c */,
+				4D9556EA1C16D55A00628D97 /* dict.h */,
+				4D9556EB1C16D55A00628D97 /* fmacros.h */,
+				4D9556EC1C16D55A00628D97 /* hiredis.c */,
+				4D9556ED1C16D55A00628D97 /* hiredis.h */,
+				4D9556EE1C16D55A00628D97 /* macosx.h */,
+				4D9556EF1C16D55A00628D97 /* net.c */,
+				4D9556F01C16D55A00628D97 /* net.h */,
+				4D9556F11C16D55A00628D97 /* read.c */,
+				4D9556F21C16D55A00628D97 /* read.h */,
+				4D9556F31C16D55A00628D97 /* sds.c */,
+				4D9556F41C16D55A00628D97 /* sds.h */,
+				4D9556F51C16D55A00628D97 /* win32.h */,
+			);
+			path = Hiredis;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D9556D91C16D53500628D97 /* iOSRedisKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D9556E31C16D53500628D97 /* Build configuration list for PBXNativeTarget "iOSRedisKit" */;
+			buildPhases = (
+				4D9556D61C16D53500628D97 /* Sources */,
+				4D9556D71C16D53500628D97 /* Frameworks */,
+				4D9556D81C16D53500628D97 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSRedisKit;
+			productName = iOSRedisKit;
+			productReference = 4D9556DA1C16D53500628D97 /* libiOSRedisKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D9556D21C16D53500628D97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Mark C.J.";
+				TargetAttributes = {
+					4D9556D91C16D53500628D97 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 4D9556D51C16D53500628D97 /* Build configuration list for PBXProject "iOSRedisKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D9556D11C16D53500628D97;
+			productRefGroup = 4D9556DB1C16D53500628D97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D9556D91C16D53500628D97 /* iOSRedisKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D9556D61C16D53500628D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9556F71C16D55A00628D97 /* dict.c in Sources */,
+				4D9556F61C16D55A00628D97 /* async.c in Sources */,
+				4D9556F81C16D55A00628D97 /* hiredis.c in Sources */,
+				4D9556FF1C16D56E00628D97 /* CocoaRedis.m in Sources */,
+				4D9557021C16D5B900628D97 /* CocoaPromise.m in Sources */,
+				4D9556F91C16D55A00628D97 /* net.c in Sources */,
+				4D9556FB1C16D55A00628D97 /* sds.c in Sources */,
+				4D9556FA1C16D55A00628D97 /* read.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4D9556E11C16D53500628D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D9556E21C16D53500628D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D9556E41C16D53500628D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4D9556E51C16D53500628D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D9556D51C16D53500628D97 /* Build configuration list for PBXProject "iOSRedisKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D9556E11C16D53500628D97 /* Debug */,
+				4D9556E21C16D53500628D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D9556E31C16D53500628D97 /* Build configuration list for PBXNativeTarget "iOSRedisKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D9556E41C16D53500628D97 /* Debug */,
+				4D9556E51C16D53500628D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D9556D21C16D53500628D97 /* Project object */;
+}
